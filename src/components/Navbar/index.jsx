@@ -5,7 +5,7 @@ import "./Button.css";
 
 function Navbar() {
   return (
-    <nav className=" flex z-40 align-center justify-between backdrop-blur-[10px] bg-grey/30 rounded-[50em] border-solid border-[0.01em] border-white/50">
+    <nav className=" flex z-40 align-center justify-between  bg-purple ">
       <div className="pt-6">
         <LinkR to="/">
           <img src={"../assets/sara_logo.svg"} alt="logo" width={120} />
@@ -14,7 +14,23 @@ function Navbar() {
       <div className="flex align-center justify-center pt-9 gap-3 pr-[20em]">
         <ul>
           <li>
-            <LinkS to="projects">Projects</LinkS>
+            <LinkR
+              /*  onClick={() => props.history.push("/")} */
+              to="/#projects"
+              smooth={true}
+              durantion={1500}
+              spy={true}
+              exact={true}
+              offset={70}
+              location={{
+                pathname: "/",
+
+                hash: "#projects",
+              }}
+            >
+              {" "}
+              Projects
+            </LinkR>
           </li>
           <li>
             <LinkS to="contact">Contact</LinkS>

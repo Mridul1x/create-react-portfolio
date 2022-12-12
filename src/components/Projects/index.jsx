@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import DivisionBar from "../../components/DivisionBar";
 import { motion } from "framer-motion";
 
-import { Link as LinkR } from "react-router-dom";
+import { Link as LinkR, useLocation } from "react-router-dom";
 
 const container = {
   hidden: {},
@@ -44,6 +44,18 @@ const Project = ({ title }) => {
 };
 
 function Projects() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      let elem = document.getElementById(location.hash.slice(1));
+      if (elem) {
+        elem.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
+  }, [location]);
   return (
     <section id="projects" className="pt-48 pb-48">
       {/* HEADINGS */}
