@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <div className="flex  flex-col items-center">
-        <div className="pt-6 z-40 fixed w-4/6">
+        <div className=" z-40 fixed w-full">
           <Navbar />
         </div>
         <Routes>

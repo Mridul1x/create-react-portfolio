@@ -71,17 +71,14 @@ function Projects() {
         }}
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
-            <span className="text-red">PRO</span>JECTS
-          </p>
+          <p className="font-playfair font-semibold text-4xl">PROJECTS</p>
           <div className="flex justify-center mt-5">
             <DivisionBar width="w-2/3" />
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          Here you are going to find some of my projects from my Ironhack
+          Bootcamp and also some of my animations.
         </p>
       </motion.div>
 

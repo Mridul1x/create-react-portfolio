@@ -6,21 +6,21 @@ import "./Button.css";
 function Navbar() {
   return (
     <nav className=" flex z-40 align-center justify-between  bg-purple ">
-      <div className="pt-6">
+      <div className="pt-6 pl-[10em]">
         <LinkR to="/">
           <img src={"../assets/sara_logo.svg"} alt="logo" width={120} />
         </LinkR>
       </div>
       <div className="flex align-center justify-center pt-9 gap-3 pr-[20em]">
-        <ul>
+        <ul className="flex flex-row gap-6 pr-[20em]">
           <li>
             <LinkR
               /*  onClick={() => props.history.push("/")} */
               to="/#projects"
-              smooth={true}
+              /* smooth={true} */
               durantion={1500}
-              spy={true}
-              exact={true}
+              /* spy={true}
+              exact={true} */
               offset={70}
               location={{
                 pathname: "/",
@@ -36,7 +36,7 @@ function Navbar() {
             <LinkS to="contact">Contact</LinkS>
           </li>{" "}
         </ul>
-        <button className="button-54">Hello</button>
+        <button className="button-54">Let's Talk!</button>
       </div>
     </nav>
   );
