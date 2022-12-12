@@ -5,7 +5,7 @@ import "./Button.css";
 
 function Navbar() {
   return (
-    <nav className=" flex align-center justify-between backdrop-blur[10px] bg-white/20 rounded-[50em] border-solid border-[0.01em] border-white/50">
+    <nav className=" flex z-40 align-center justify-between backdrop-blur-[10px] bg-grey/30 rounded-[50em] border-solid border-[0.01em] border-white/50">
       <div className="pt-6">
         <LinkR to="/">
           <img src={"../assets/sara_logo.svg"} alt="logo" width={120} />
