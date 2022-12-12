@@ -1,7 +1,7 @@
 import React from "react";
 
-function index() {
+function Hero() {
   return <div>Hello</div>;
 }
 
-export default index;
+export default Hero;

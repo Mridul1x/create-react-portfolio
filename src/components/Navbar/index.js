@@ -1,7 +1,18 @@
 import React from "react";
+import { Link as LinkR } from "react-router-dom";
 
-function index() {
-  return <nav>Hello</nav>;
+function Navbar() {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <LinkR to="/">
+            <img />
+          </LinkR>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default index;
+export default Navbar;
