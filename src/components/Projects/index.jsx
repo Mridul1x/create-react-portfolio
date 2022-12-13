@@ -115,7 +115,7 @@ function Projects() {
           >
             MOTION DESIGN
           </div>
-          <Project title="Project 4" />
+          <Project title="Motion Reels" />
           <Project title="Project 5" />
 
           {/* ROW 3 */}

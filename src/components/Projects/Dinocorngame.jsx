@@ -19,7 +19,7 @@ function Upmanager() {
         </a>
         <div className="flex align-center justify-center items-center flex-col md:pr-48">
           <a
-            href="https://precious-starship-8d8098.netlify.app/"
+            href="https://saracsilva.github.io/the-dinocorn-game/"
             target="_blank"
             rel="noreferrer"
           >
@@ -40,7 +40,7 @@ function Upmanager() {
           </p>
           <button className="bg-yellow max-w-[10em] text-purple rounded-full font-bold px-10 py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a
-              href="https://github.com/andreiacpafonso/couldbepizza"
+              href="https://github.com/saracsilva/the-dinocorn-game"
               target="_blank"
               rel="noreferrer"
             >

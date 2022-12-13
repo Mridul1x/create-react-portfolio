@@ -8,6 +8,7 @@ import Dinocorngame from "./components/Projects/Dinocorngame";
 import Home from "./pages";
 import About from "./pages/About";
 import ScrollToTop from "./components/ScrollToTop";
+import MotionReels from "./components/Projects/MotionReels";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/upmanager" element={<Upmanager />} exact />
             <Route path="/couldbepizza" element={<Couldbepizza />} exact />
             <Route path="/dinocorngame" element={<Dinocorngame />} exact />
+            <Route path="/motionreels" element={<MotionReels />} exact />
             <Route path="/aboutme" element={<About />} exact />
           </Routes>
         </div>

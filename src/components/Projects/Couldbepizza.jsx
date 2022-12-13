@@ -21,7 +21,7 @@ function Upmanager() {
         </a>
         <div className="flex align-center justify-center items-center flex-col md:pr-48">
           <a
-            href="https://precious-starship-8d8098.netlify.app/"
+            href="https://lilac-drill-cuff.cyclic.app/"
             target="_blank"
             rel="noreferrer"
           >
