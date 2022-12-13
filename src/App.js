@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 //import Projects from "./components/Projects";
-import Project01 from "./components/Projects/Project01";
+import Upmanager from "./components/Projects/Upmanager";
 import Home from "./pages";
 import About from "./pages/About";
+
 function App() {
   return (
     <Router>
@@ -13,7 +14,7 @@ function App() {
         </div>
         <Routes>
           <Route path="/" element={<Home />} exact />
-          <Route path="/project01" element={<Project01 />} exact />
+          <Route path="/upmanager" element={<Upmanager />} exact />
           <Route path="/aboutme" element={<About />} exact />
         </Routes>
       </div>

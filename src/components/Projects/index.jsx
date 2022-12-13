@@ -17,20 +17,17 @@ const projectVariant = {
   hidden: { opacity: 0, scale: 0.8 },
   visible: { opacity: 1, scale: 1 },
 };
-const Project = ({ title }) => {
+const Project = ({ title, subtitle }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
+  const projectTitle = title.toLowerCase();
 
   return (
-    <LinkR to="/project01">
+    <LinkR to={`/${projectTitle}`}>
       <motion.div variants={projectVariant} className="relative">
         <div className={overlayStyles}>
           <p className="text-2xl font-playfair">{title}</p>
-          <p className="mt-7">
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-            Nulla porttitor accumsan tincidunt.
-          </p>
+          <p className="mt-7">{subtitle}</p>
         </div>
         <img
           src={`./assets/${projectTitle}.png`}
@@ -93,12 +90,15 @@ function Projects() {
         >
           {/* ROW 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+            className="flex justify-center text-center items-center p-10 bg-light-blue
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-purple"
           >
-            BEAUTIFUL USER INTERFACES
+            IRONHACK'S PROJECTS
           </div>
-          <Project title="Project 1" />
+          <Project
+            title="Upmanager"
+            subtitle="A managment App made as a final prject from the Bootcamp"
+          />
           <Project title="Project 2" />
 
           {/* ROW 2 */}

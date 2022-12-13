@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project01() {
+function Upmanager() {
   return (
     <div className=" pt-[200px] flex flex-col align-center justify-center items-center">
       <div className="order-2 flex flex-col align-center justify-center items-center md:flex-row px-9 md:px-24">
@@ -47,4 +47,4 @@ function Project01() {
   );
 }
 
-export default Project01;
+export default Upmanager;
