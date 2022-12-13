@@ -2,7 +2,7 @@ import React from "react";
 
 function Upmanager() {
   return (
-    <div className=" pt-[200px] flex flex-col align-center justify-center items-center">
+    <div className="  flex flex-col align-center justify-center items-center">
       <div className="order-2 flex flex-col align-center justify-center items-center md:flex-row px-9 md:px-24">
         <a
           className="w-5/6 items-center"
@@ -38,7 +38,7 @@ function Upmanager() {
             final project and I did it together with my colegues Shirin and
             Stephanie.
           </p>
-          <button className="bg-yellow max-w-[10em] text-purple rounded-full font-bold px-10 py-1 hover:bg-[#1f1236] hover:text-yellow transition duration-500">
+          <button className="bg-yellow max-w-[10em] text-purple rounded-full font-bold px-10 py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
             GitHub
           </button>
         </div>

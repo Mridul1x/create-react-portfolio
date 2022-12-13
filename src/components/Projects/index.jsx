@@ -20,7 +20,7 @@ const projectVariant = {
 const Project = ({ title, subtitle }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title.toLowerCase();
+  const projectTitle = title.split(" ").join("").toLowerCase();
 
   return (
     <LinkR to={`/${projectTitle}`}>
@@ -97,9 +97,12 @@ function Projects() {
           </div>
           <Project
             title="Upmanager"
-            subtitle="A managment App made as a final prject from the Bootcamp"
+            subtitle="A managment App made as a final project from the Bootcamp"
           />
-          <Project title="Project 2" />
+          <Project
+            title="Could Be Pizza"
+            subtitle="An APP to find all crazy kinds of pizza flavors made as a second project from the Bootcamp"
+          />
 
           {/* ROW 2 */}
           <Project title="Project 3" />
