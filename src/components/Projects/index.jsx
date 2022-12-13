@@ -116,11 +116,11 @@ function Projects() {
             MOTION DESIGN
           </div>
           <Project title="Motion Reels" />
-          <Project title="Project 5" />
+          {/* <Project title="Project 5" /> */}
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          {/*  <Project title="Project 6" />
+          <Project title="Project 7" /> */}
         </motion.div>
       </div>
     </section>
