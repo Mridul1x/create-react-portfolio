@@ -28,7 +28,9 @@ function App() {
             <Route path="/aboutme" element={<About />} exact />
           </Routes>
         </div>
-        <Footer />
+        <div className="">
+          <Footer />
+        </div>
       </ScrollToTop>
     </Router>
   );

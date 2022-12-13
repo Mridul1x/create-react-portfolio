@@ -9,7 +9,7 @@ function Navbar() {
   const isAboveSmallScreens = useMediaQuery("(min-width:768px )");
   return (
     <nav className=" flex z-40 align-center justify-between  bg-purple  ">
-      <div className="pt-6 pl-[11em] md:pl-[10em] sm:pl-[5em] w-1/4">
+      <div className="pt-6 pl-[11em] md:pl-[10em] sm:pl-[5em] md:w-1/4">
         <LinkR to="/">
           <img src={"../assets/sara_logo.svg"} alt="logo" width={120} />
         </LinkR>
