@@ -14,7 +14,7 @@ function Upmanager() {
         >
           <img
             src="./assets/couldbepizza_pages.png"
-            alt="project Could be pizza"
+            alt="Project Could be pizza"
             width="700"
             className="hover:filter items-center hover:saturate-200 transition duration-500 z-10 w-full  md:max-w-[800px]"
           />
@@ -28,7 +28,7 @@ function Upmanager() {
             <span className="flex align-center justify-center flex-row px-6 mt-6">
               <img
                 src="./assets/could_be.svg"
-                alt="project-3"
+                alt="Could Be Pizza Logo"
                 width="400px"
                 className="px-11 pb-[3em] hover:w-[405px] transition duration-500"
               />
@@ -49,7 +49,14 @@ function Upmanager() {
             Stephanie.
           </p>
           <button className="bg-yellow max-w-[10em] text-purple rounded-full font-bold px-10 py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
-            GitHub
+            <a
+              href="https://github.com/andreiacpafonso/couldbepizza"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              GitHub
+            </a>
           </button>
         </div>
       </div>

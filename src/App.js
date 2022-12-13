@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 //import Projects from "./components/Projects";
 import Upmanager from "./components/Projects/Upmanager";
 import Couldbepizza from "./components/Projects/Couldbepizza";
+import Dinocorngame from "./components/Projects/Dinocorngame";
 import Home from "./pages";
 import About from "./pages/About";
 import ScrollToTop from "./components/ScrollToTop";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} exact />
             <Route path="/upmanager" element={<Upmanager />} exact />
             <Route path="/couldbepizza" element={<Couldbepizza />} exact />
+            <Route path="/dinocorngame" element={<Dinocorngame />} exact />
             <Route path="/aboutme" element={<About />} exact />
           </Routes>
         </div>

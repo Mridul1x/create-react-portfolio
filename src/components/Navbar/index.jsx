@@ -8,8 +8,8 @@ function Navbar() {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveSmallScreens = useMediaQuery("(min-width:768px )");
   return (
-    <nav className=" flex z-40 align-center justify-between  bg-purple ">
-      <div className="pt-6 pl-[11em] md:pl-[10em] sm:pl-[5em]  min-w-[300px]">
+    <nav className=" flex z-40 align-center justify-between  bg-purple  ">
+      <div className="pt-6 pl-[11em] md:pl-[10em] sm:pl-[5em] w-1/4">
         <LinkR to="/">
           <img src={"../assets/sara_logo.svg"} alt="logo" width={120} />
         </LinkR>
@@ -18,9 +18,9 @@ function Navbar() {
       {/*  Desktop Nav */}
 
       {isAboveSmallScreens ? (
-        <div className="flex align-center justify-center pt-9 gap-3 pr-[20em]">
-          <ul className="flex flex-row gap-6 pr-[20em]">
-            <li>
+        <div className="flex align-center justify-between pt-9 gap-3 w-3/5 ">
+          <ul className="flex flex-row gap-6 w-2/4 pr-[20em]">
+            <li className="hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
               <LinkR
                 to="/#projects"
                 /* smooth={true} */
@@ -38,16 +38,25 @@ function Navbar() {
                 Projects
               </LinkR>
             </li>
-            <li>
+            <li className="hover:cursor-pointer hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
               <LinkS to="contact">Contact</LinkS>
             </li>{" "}
-            <li>
+            <li className="hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
               <LinkR to="/aboutme">About Me</LinkR>
             </li>{" "}
           </ul>
-          <button className="button-54">
+          <div className="w-2/4 pr-36 justify-end align-end flex ">
+            {/* <button className="button-54">
             <a href="mailto:saracarolinasilva@gmail.com">Let's Talk!</a>
-          </button>
+          </button>{" "} */}
+            <button
+              className="uppercase touch-manipulation relative text-lg tracking-wider border-4 border-solid py-[0.25em] px-[0.5em] shadow-[1px_1px_0px_0px] shadow-[2px_2px_0px_0px] shadow-[3px_3px_0px_0px] shadow-[4px_4px_0px_0px] shadow-[5px_5px_0px_0px]
+            active:shadow-[0px_0px_0px_0px] active:top-1.5 active:left-1.5 active:translate-y-2 hover:border-yellow hover:text-yellow
+  "
+            >
+              <a href="mailto:saracarolinasilva@gmail.com">Let's Talk!</a>
+            </button>
+          </div>
         </div>
       ) : (
         <button
@@ -70,7 +79,7 @@ function Navbar() {
           <div className="flex flex-col gap-10 ml-[33%] text-2xl text-white">
             {" "}
             <ul className="py-[2em]">
-              <li className="py-[0.2em]">
+              <li className="py-[0.2em] hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
                 <LinkR
                   to="/#projects"
                   /* smooth={true} */
@@ -88,13 +97,13 @@ function Navbar() {
                   Projects
                 </LinkR>
               </li>
-              <li className="py-[0.2em]">
+              <li className="py-[0.2em] hover:cursor-pointer hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
                 <LinkS to="contact">Contact</LinkS>
               </li>{" "}
-              <li className="py-[0.2em]">
+              <li className="py-[0.2em] hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
                 <LinkR to="/aboutme">About Me</LinkR>
               </li>{" "}
-              <li className="py-[0.2em]">
+              <li className="py-[0.2em] hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
                 {" "}
                 <a href="mailto:saracarolinasilva@gmail.com">Let's Talk!</a>
               </li>

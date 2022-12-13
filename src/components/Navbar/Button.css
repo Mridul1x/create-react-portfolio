@@ -1,5 +1,6 @@
 /* CSS */
 .button-54 {
+  display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
@@ -12,11 +13,14 @@
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
     5px 5px 0px 0px;
   position: relative;
-  user-select: none;
-  -webkit-user-select: none;
+  /*  user-select: none;
+  -webkit-user-select: none; */
   touch-action: manipulation;
 }
-
+.button-54:hover {
+  color: #edfe7b;
+  transition: all 0.5s ease-out;
+}
 .button-54:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
