@@ -2,10 +2,10 @@ import React from "react";
 
 function Project01() {
   return (
-    <div className="order-2 pt-[200px] flex flex-col align-center justify-center items-center">
-      <div className="flex flex-row px-24">
+    <div className=" pt-[200px] flex flex-col align-center justify-center items-center">
+      <div className="order-2 flex flex-col align-center justify-center items-center md:flex-row px-9 md:px-24">
         <a
-          className="w-5/6"
+          className="w-5/6 items-center"
           href="https://precious-starship-8d8098.netlify.app/"
           target="_blank"
           rel="noreferrer"
@@ -14,10 +14,10 @@ function Project01() {
             src="./assets/upmanager_pages.png"
             alt="project-3"
             width="1000"
-            className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full md:max-w-[1200px]"
+            className="hover:filter items-center hover:saturate-200 transition duration-500 z-10 w-full ss:min-w-[50px] md:max-w-[1200px]"
           />
         </a>
-        <div className="flex align-center justify-center items-center flex-col pr-48">
+        <div className="flex align-center justify-center items-center flex-col md:pr-48">
           <a
             href="https://precious-starship-8d8098.netlify.app/"
             target="_blank"
