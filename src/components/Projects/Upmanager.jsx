@@ -36,7 +36,12 @@ function Upmanager() {
           <p className="flex md:text-xl align-center justify-center font-raleway font-extralight z-10 text-center md:text-start pb-10  ">
             This projects was executed during my Ironhack Bootcamp. It's the
             final project and I did it together with my colegues Shirin and
-            Stephanie.
+            Stephanie. We decided to make a management tool to help to organize
+            projects and events from a company.
+            <br />
+            <br />
+            We used MongoDB for the BackEnd and React in the FronEnd. To give a
+            better look to the APP, we used Material UI and Mantine.
           </p>
           <button className="bg-yellow max-w-[20em] mb-6 py-2 text-purple rounded-full font-bold px-[35px]   py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a

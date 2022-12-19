@@ -34,9 +34,9 @@ function Upmanager() {
             About the project
           </p>
           <p className="flex md:text-xl align-center justify-center font-raleway font-extralight z-10 text-center md:text-start pb-10  ">
-            This projects was executed during my Ironhack Bootcamp. It's the
-            final project and I did it together with my colegues Shirin and
-            Stephanie.
+            This was my first project. It is a game like the original dinosaur
+            one from Chrome. I've decided to give a happier look to the game to
+            make it more enjoyable. It's all made with JavaScript, CSS and HTML.
           </p>
           <button className="bg-yellow max-w-[10em] text-purple rounded-full font-bold px-10 py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a

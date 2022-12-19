@@ -44,9 +44,15 @@ function Upmanager() {
             About the project
           </p>
           <p className="flex md:text-xl align-center justify-center font-raleway font-extralight z-10 text-center md:text-start pb-10  ">
-            This projects was executed during my Ironhack Bootcamp. It's the
-            final project and I did it together with my colegues Shirin and
-            Stephanie.
+            This was the second project. I made it together with my colleague
+            Andrea. We decided to make an App where you can put all kinds of
+            crazy pizza flavors on it, so everybody that visits the app can know
+            the different types of pizza that exist in the world.
+            <br />
+            <br />
+            We used MongoDB for the BackEnd and JavaScript and EJS in the
+            FronEnd. To give a better look to the APP, we used CSS and a bit of
+            Bootstrap.
           </p>
           <button className="bg-yellow max-w-[10em] text-purple rounded-full font-bold px-10 py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a
