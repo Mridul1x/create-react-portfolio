@@ -40,10 +40,21 @@ function Upmanager() {
             projects and events from a company.
             <br />
             <br />
-            We used MongoDB for the BackEnd and React in the FronEnd. To give a
-            better look to the APP, we used Material UI and Mantine.
+            We used MongoDB for the Database, Express for the BackEnd and React
+            in the FronEnd. To give a better look to the APP, we used Material
+            UI and Mantine.
           </p>
-          <button className="bg-yellow max-w-[20em] mb-6 py-2 text-purple rounded-full font-bold px-[35px]   py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
+          <button className="bg-yellow max-w-[20em] mb-6 py-2 text-purple rounded-full font-bold px-[35px]  hover:bg-dark-purple hover:text-yellow transition duration-500">
+            <a
+              href="https://precious-starship-8d8098.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Demo
+            </a>
+          </button>
+          <button className="bg-yellow max-w-[20em] mb-6 py-2 text-purple rounded-full font-bold px-[35px]  hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a
               href="https://github.com/stephahos/upmanager"
               target="_blank"

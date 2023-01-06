@@ -38,7 +38,17 @@ function Upmanager() {
             one from Chrome. I've decided to give a happier look to the game to
             make it more enjoyable. It's all made with JavaScript, CSS and HTML.
           </p>
-          <button className="bg-yellow max-w-[10em] text-purple rounded-full font-bold px-10 py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
+          <button className="bg-yellow max-w-[10em] mb-6 text-purple rounded-full font-bold px-10 py-2 hover:bg-dark-purple hover:text-yellow transition duration-500">
+            <a
+              href="https://saracsilva.github.io/the-dinocorn-game/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Demo
+            </a>
+          </button>
+          <button className="bg-yellow max-w-[10em] mb-6 text-purple rounded-full font-bold px-10 py-2 hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a
               href="https://github.com/saracsilva/the-dinocorn-game"
               target="_blank"

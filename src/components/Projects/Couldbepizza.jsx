@@ -50,11 +50,21 @@ function Upmanager() {
             the different types of pizza that exist in the world.
             <br />
             <br />
-            We used MongoDB for the BackEnd and JavaScript and EJS in the
-            FronEnd. To give a better look to the APP, we used CSS and a bit of
-            Bootstrap.
+            We used MongoDB for the Database, Express for the BackEnd and
+            JavaScript and EJS in the FrontEnd. To give a better look to the
+            APP, we used CSS and a bit of Bootstrap.
           </p>
-          <button className="bg-yellow max-w-[10em] text-purple rounded-full font-bold px-10 py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
+          <button className="bg-yellow max-w-[10em] mb-6 text-purple rounded-full font-bold px-10 py-2 hover:bg-dark-purple hover:text-yellow transition duration-500">
+            <a
+              href="https://lilac-drill-cuff.cyclic.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Demo
+            </a>
+          </button>
+          <button className="bg-yellow max-w-[10em] mb-6 text-purple rounded-full font-bold px-10 py-2 hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a
               href="https://github.com/andreiacpafonso/couldbepizza"
               target="_blank"

@@ -92,18 +92,32 @@ function Navbar() {
 
                     hash: "#projects",
                   }}
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
                 >
                   {" "}
                   Projects
                 </LinkR>
               </li>
               <li className="py-[0.2em] hover:cursor-pointer hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
-                <LinkS to="contact">Contact</LinkS>
+                <LinkS
+                  to="contact"
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
+                >
+                  Contact
+                </LinkS>
               </li>{" "}
               <li className="py-[0.2em] hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
-                <LinkR to="/aboutme">About Me</LinkR>
+                <LinkR
+                  to="/aboutme"
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
+                >
+                  About Me
+                </LinkR>
               </li>{" "}
-              <li className="py-[0.2em] hover:text-yellow transition duration-500 hover:font-semibold transition duration-500">
+              <li
+                className="py-[0.2em] hover:text-yellow transition duration-500 hover:font-semibold transition duration-500"
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
+              >
                 {" "}
                 <a href="mailto:saracarolinasilva@gmail.com">Let's Talk!</a>
               </li>
