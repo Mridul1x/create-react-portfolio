@@ -107,7 +107,7 @@ function Projects() {
           {/* ROW 2 */}
           <Project
             title="Dinocorn Game"
-            subtitle="The first project of the Bootcamp wich we had to do make a game in JavaScript."
+            subtitle="The first project of the Bootcamp wich we had to make a game in JavaScript."
           />
           <div
             className="flex justify-center text-center items-center p-10 bg-deep-blue
