@@ -64,7 +64,7 @@ function Upmanager() {
               GitHub Front-End
             </a>
           </button>
-          <button className="bg-yellow max-w-[20em] mb-6 py-2 text-purple rounded-full font-bold px-[35px] py-1 hover:bg-dark-purple hover:text-yellow transition duration-500">
+          <button className="bg-yellow max-w-[20em] mb-6 py-2 text-purple rounded-full font-bold px-[35px] hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a
               href="https://github.com/stephahos/up_manager_api"
               target="_blank"
