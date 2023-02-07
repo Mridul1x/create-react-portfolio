@@ -30,7 +30,7 @@ function Upmanager() {
           </p>
           <button className="bg-yellow max-w-[10em] mb-6 text-purple rounded-full font-bold px-10 py-2 hover:bg-dark-purple hover:text-yellow transition duration-500">
             <a
-              href="https://lilac-drill-cuff.cyclic.app/"
+              href="https://glowing-stardust-4eab74.netlify.app/search"
               target="_blank"
               rel="noreferrer"
             >
