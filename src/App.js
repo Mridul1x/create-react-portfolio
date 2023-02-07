@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Upmanager from "./components/Projects/Upmanager";
 import Couldbepizza from "./components/Projects/Couldbepizza";
 import Dinocorngame from "./components/Projects/Dinocorngame";
+import MyDictionary from "./components/Projects/MyDictionary";
 import Home from "./pages";
 import About from "./pages/About";
 import ScrollToTop from "./components/ScrollToTop";
@@ -25,6 +26,7 @@ function App() {
             <Route path="/couldbepizza" element={<Couldbepizza />} exact />
             <Route path="/dinocorngame" element={<Dinocorngame />} exact />
             <Route path="/motionreels" element={<MotionReels />} exact />
+            <Route path="/mydictionary" element={<MyDictionary />} exact />
             <Route path="/aboutme" element={<About />} exact />
           </Routes>
         </div>

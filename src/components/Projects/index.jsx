@@ -34,6 +34,7 @@ const Project = ({ title, subtitle }) => {
           alt={projectTitle}
           width="400"
           height="370"
+          className="w-[400px] h-[370px] object-cover"
         />
       </motion.div>
     </LinkR>
@@ -90,11 +91,22 @@ function Projects() {
         >
           {/* ROW 1 */}
           <div
+            className="flex justify-center text-center items-center p-10 bg-light-pink
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-purple"
+          >
+            PERSONAL PROJECTS
+          </div>
+          <Project
+            title="My Dictionary"
+            subtitle="A personal project, an English Dictionary."
+          />
+          <div
             className="flex justify-center text-center items-center p-10 bg-light-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-purple"
           >
             IRONHACK'S PROJECTS
           </div>
+          {/* ROW 2 */}
           <Project
             title="Upmanager"
             subtitle="A managment App made as a final project from the Bootcamp."
@@ -104,11 +116,11 @@ function Projects() {
             subtitle="An APP to find all crazy kinds of pizza flavors made as a second project from the Bootcamp."
           />
 
-          {/* ROW 2 */}
           <Project
             title="Dinocorn Game"
             subtitle="The first project of the Bootcamp wich we had to make a game in JavaScript."
           />
+          {/* ROW 3 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-deep-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
@@ -116,11 +128,6 @@ function Projects() {
             MOTION DESIGN
           </div>
           <Project title="Motion Reels" />
-          {/* <Project title="Project 5" /> */}
-
-          {/* ROW 3 */}
-          {/*  <Project title="Project 6" />
-          <Project title="Project 7" /> */}
         </motion.div>
       </div>
     </section>
