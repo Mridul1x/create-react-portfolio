@@ -12,7 +12,7 @@ function Upmanager() {
         >
           <img
             src="./assets/mydictionary_pages.png"
-            alt="My Dictionary Picture"
+            alt="My Dictionary"
             width="700"
             className="hover:filter items-center  hover:saturate-50 transition duration-500 z-10 w-full  md:max-w-[800px]"
           />
