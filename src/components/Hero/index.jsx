@@ -54,7 +54,7 @@ function Hero() {
           <motion.div
             initial={{ y: "100%" }}
             whileInView={{ y: 0 }}
-            transition={{ duration: 1, ease: "easeInOut" }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
             className="text-center"
           >
             <div className="flex font-raleway z-10 text-center md:text-start ">
@@ -93,7 +93,7 @@ function Hero() {
           <motion.div
             initial={{ y: "100%" }}
             whileInView={{ y: 0 }}
-            transition={{ duration: 1, ease: "easeInOut" }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
           >
             <SocialMediaIcons />
           </motion.div>
