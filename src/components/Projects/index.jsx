@@ -55,7 +55,7 @@ function Projects() {
     }
   }, [location]);
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="works" className="pt-48 pb-48">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"
@@ -94,17 +94,17 @@ function Projects() {
             className="flex justify-center text-center items-center p-10 bg-light-pink
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-purple"
           >
-            PERSONAL PROJECTS
+            QUILLING ART
           </div>
           <Project
-            title="My Dictionary"
-            subtitle="A personal project, an English Dictionary."
+            title="Rain Abstract"
+            subtitle="Everybody wants happiness, nobody wants pain, but you can’t have a rainbow without a little rain"
           />
           <div
             className="flex justify-center text-center items-center p-10 bg-light-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-purple"
           >
-            IRONHACK'S PROJECTS
+            PERSONAL WORK
           </div>
           {/* ROW 2 */}
           <Project

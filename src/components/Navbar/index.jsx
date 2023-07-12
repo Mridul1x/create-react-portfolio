@@ -22,7 +22,7 @@ function Navbar() {
           <ul className="flex flex-row gap-6 w-1/3 justify-center  ">
             <li className="hover:text-yellow hover:font-semibold transition duration-500">
               <LinkR
-                to="/#projects"
+                to="/#works"
                 /* smooth={true} */
                 durantion={1500}
                 /* spy={true}
@@ -31,11 +31,11 @@ function Navbar() {
                 location={{
                   pathname: "/",
 
-                  hash: "#projects",
+                  hash: "#works",
                 }}
               >
                 {" "}
-                Projects
+                Works
               </LinkR>
             </li>
             <li className="hover:cursor-pointer hover:text-yellow hover:font-semibold transition duration-500">
@@ -81,7 +81,7 @@ function Navbar() {
             <ul className="py-[2em]">
               <li className="py-[0.2em] hover:text-yellow hover:font-semibold transition duration-500">
                 <LinkR
-                  to="/#projects"
+                  to="/#works"
                   /* smooth={true} */
                   durantion={1500}
                   /* spy={true}
@@ -90,12 +90,12 @@ function Navbar() {
                   location={{
                     pathname: "/",
 
-                    hash: "#projects",
+                    hash: "#works",
                   }}
                   onClick={() => setIsMenuToggled(!isMenuToggled)}
                 >
                   {" "}
-                  Projects
+                  Works
                 </LinkR>
               </li>
               <li className="py-[0.2em] hover:cursor-pointer hover:text-yellow transition duration-500 hover:font-semibold ">

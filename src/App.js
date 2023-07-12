@@ -26,7 +26,7 @@ function App() {
             <Route path="/couldbepizza" element={<Couldbepizza />} exact />
             <Route path="/dinocorngame" element={<Dinocorngame />} exact />
             <Route path="/motionreels" element={<MotionReels />} exact />
-            <Route path="/mydictionary" element={<MyDictionary />} exact />
+            <Route path="/rainabstract" element={<MyDictionary />} exact />
             <Route path="/aboutme" element={<About />} exact />
           </Routes>
         </div>
