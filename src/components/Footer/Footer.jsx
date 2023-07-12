@@ -14,7 +14,7 @@ const Footer = () => {
           <Lottie
             animationData={animation02}
             loop={true}
-            className="z-10 w-full items-center w-[80px]
+            className="z-10 items-center w-[80px]
               md:w-[120px] "
           />
         </div>
@@ -22,14 +22,14 @@ const Footer = () => {
           <div className="flex flex-col items-center ">
             <span className="flex flex-row gap-3 ">
               <img src="../../assets/email.svg" alt="email icon" width={20} />
-              <p className=" text-l">saracarolinasilva@gmail.com</p>
+              <p className=" text-l">anushrighose@gmail.com</p>
             </span>
             <p className="font-playfair font-semibold text-2xl text-yellow">
-              SARA SILVA
+              ANUSHRI GHOSH
             </p>
           </div>
           <p className="font-playfair text-md text-yellow mb-2">
-            ©2022 Sara Silva. All Rights Reserved.
+            ©2023 ANUSHRI GHOSH. All Rights Reserved.
           </p>
         </div>
       </div>
