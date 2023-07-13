@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      className="flex bottom-0  align-end justify-end h-96 md:h-64 bg-dark-purple pt-10  my-5 py-5"
+      className="flex bottom-0  align-end justify-end h-96 md:h-64 bg-dark-purple mt-10"
     >
       <div className="w-10/12 mx-auto">
         <div className=" flex flex-col md:flex-row items-center justify-center md:justify-between">

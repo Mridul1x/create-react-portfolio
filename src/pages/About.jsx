@@ -4,7 +4,7 @@ function About() {
   return (
     <div className=" pt-[200px] flex flex-col md:flex-row align-center justify-center items-center gap-11">
       <img
-        src="../../assets/sara.png"
+        src="https://i.ibb.co/ccjVbjf/IMG-9893.jpg"
         alt="Sara"
         className="w-3/5 md:w-[400px]"
       />
@@ -13,14 +13,13 @@ function About() {
           About Me
         </h1>
         <p className="flex flex-col md:text-l align-center justify-center font-raleway font-extralight z-10 text-center md:text-start pb-10  ">
-          I'm from the warm lands of Brazil, in a city called Itajaí by the
-          beach. It was there where I spent my childhood and teenage dreams as a
-          girl that always liked computers. I always enjoyed learning things by
-          myself, and that's how I learned photoshop and ended up graduating in
-          Design, except It was Industrial Design (back then, it was the only
-          possible option for me). At the time, I also liked to deal with a bit
-          of HTML, but what I didn't know was that I could be a professional in
-          that (coding).
+          I'm from the green lands of Bangladesh, in a city called Rangpur by
+          the Dharla River. It was there where I spent my childhood and teenage
+          dreams as a girl that always liked Artwrok. I always enjoyed learning
+          things by myself, and that's how I learned abstarct art and ended up
+          graduating in Design. At the time, I also liked to deal with a bit of
+          Quilling Art, but what I didn't know was that I could be a
+          professional in that (Art).
           <br /> <br />
           So during my journey as a professional, I was also discovering myself.
           I had some bad experiences that again made me not look at IT as a

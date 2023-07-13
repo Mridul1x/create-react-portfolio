@@ -13,7 +13,7 @@ const GalleryItem = ({ src, alt, index }) => {
         alt={alt}
         width={500}
         height={500}
-        priority
+        priority="true"
         className="w-full h-full object-cover group-hover:scale-125 duration-1000"
       />
     </motion.div>

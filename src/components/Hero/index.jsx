@@ -12,7 +12,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="w-5/6 md:flex flex-row-reverse md:justify-center md:items-center md:h-5/6 gap-16 py-10 "
+      className="w-5/6 md:flex flex-row-reverse md:justify-center md:items-center md:h-5/6 gap-16 mt-10 md:mb-10 mb-6"
     >
       {/* Image Section */}
       <div className="overflow-hidden">

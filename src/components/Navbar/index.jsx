@@ -39,7 +39,7 @@ function Navbar() {
               </LinkR>
             </li>
             <li className="hover:cursor-pointer hover:text-yellow hover:font-semibold transition duration-500">
-              <LinkS to="contact">Contact</LinkS>
+              <LinkS to="gallery">Gallery</LinkS>
             </li>{" "}
             <li className="hover:text-yellow  hover:font-semibold transition duration-500">
               <LinkR to="/aboutme">About Me</LinkR>
@@ -47,14 +47,14 @@ function Navbar() {
           </ul>
           <div className="w-2/4 pr-36 justify-end align-end flex ">
             {/* <button className="button-54">
-            <a href="mailto:saracarolinasilva@gmail.com">Let's Talk!</a>
+            <a href="mailto:anushrighose@gmail.com">Let's Talk!</a>
           </button>{" "} */}
             <button
               className="uppercase touch-manipulation relative text-lg tracking-wider border-4 border-solid py-[0.25em] px-[0.5em]  shadow-[5px_5px_0px_0px]
             active:shadow-[0px_0px_0px_0px] active:top-1.5 active:left-1.5 active:translate-y-2 hover:border-yellow hover:text-yellow
   "
             >
-              <a href="mailto:saracarolinasilva@gmail.com">Let's Talk!</a>
+              <a href="mailto:anushrighose@gmail.com">Let's Talk!</a>
             </button>
           </div>
         </div>
@@ -94,7 +94,6 @@ function Navbar() {
                   }}
                   onClick={() => setIsMenuToggled(!isMenuToggled)}
                 >
-                  {" "}
                   Works
                 </LinkR>
               </li>
@@ -118,8 +117,7 @@ function Navbar() {
                 className="py-[0.2em] hover:text-yellow hover:font-semibold transition duration-500"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
-                {" "}
-                <a href="mailto:saracarolinasilva@gmail.com">Let's Talk!</a>
+                <a href="mailto:anushrighose@gmail.com">Let's Talk!</a>
               </li>
             </ul>
           </div>

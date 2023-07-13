@@ -55,7 +55,7 @@ function Projects() {
     }
   }, [location]);
   return (
-    <section id="works" className="mt-28 pb-48">
+    <section id="works" className="mt-28  mb-28">
       {/* HEADINGS */}
       <div className="md:w-2/5 mx-auto text-center">
         <div className="overflow-hidden">
