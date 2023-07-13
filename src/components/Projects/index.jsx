@@ -94,10 +94,10 @@ function Projects() {
         >
           {/* ROW 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-light-pink
+            className="flex uppercase justify-center text-center items-center p-10 bg-light-pink
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-purple"
           >
-            QUILLING ART
+            Geometric abstract
           </div>
           <Project
             title="Rain Abstract"
@@ -107,35 +107,42 @@ function Projects() {
             className="flex justify-center text-center items-center p-10 bg-light-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-purple"
           >
-            PERSONAL WORK
+            RAIN ABSTRACT
           </div>
           {/* ROW 2 */}
+          <div
+            className="flex justify-center text-center items-center p-10 bg-[#392576] 
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+          >
+            QUILLING ART
+          </div>
           <Project
-            title="Upmanager"
+            title="The Red Wine"
             subtitle="A managment App made as a final project from the Bootcamp."
           />
-          <Project
-            title="Could Be Pizza"
-            subtitle="An APP to find all crazy kinds of pizza flavors made as a second project from the Bootcamp."
-          />
+          <div
+            className="flex justify-center text-center items-center p-10  bg-deep-blue
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+          >
+            THE RED WINE
+          </div>
+          <div
+            className="flex justify-center text-center items-center p-10 bg-[#e0ba7e]
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-purple"
+          >
+            QUILLING ART
+          </div>
 
           <Project
-            title="Dinocorn Game"
-            subtitle="The first project of the Bootcamp wich we had to make a game in JavaScript."
+            title="Eternal Embrace"
+            subtitle="A mesmerizing
+            quilled masterpiece that portrays the timeless bond of love."
           />
-          {/* ROW 3 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-deep-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+            className="flex justify-center text-center items-center p-10 bg-[#523c8f]
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold text-dark-purple"
           >
-            MOTION DESIGN
-          </div>
-          <Project title="Motion Reels" />
-          <div
-            className="flex justify-center text-center items-center p-10 bg-deep-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            MOTION DESIGN
+            Eternal Embrace
           </div>
         </motion.div>
       </div>
