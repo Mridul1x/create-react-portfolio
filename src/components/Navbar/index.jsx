@@ -9,7 +9,7 @@ function Navbar() {
   const isAboveSmallScreens = useMediaQuery("(min-width:768px )");
   return (
     <nav className=" flex z-40 align-center justify-between  bg-purple  ">
-      <div className="pt-6 pl-[11em] md:pl-[10em] sm:pl-[5em] md:w-1/4">
+      <div className="pt-6 ml-3 md:pl-[10em] md:w-1/4">
         <LinkR to="/">
           <img src={"../assets/sara_logo.svg"} alt="logo" width={120} />
         </LinkR>
@@ -70,7 +70,7 @@ function Navbar() {
       {!isAboveSmallScreens && isMenuToggled && (
         <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
           {/* CLOSE ICON */}
-          <div className="flex justify-end p-12">
+          <div className="flex justify-start p-12">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
               <img alt="close icon" src="../assets/close-icon.svg" />
             </button>

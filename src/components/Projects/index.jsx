@@ -55,33 +55,36 @@ function Projects() {
     }
   }, [location]);
   return (
-    <section id="works" className="pt-48 pb-48">
+    <section id="works" className="mt-28 pb-48">
       {/* HEADINGS */}
-      <motion.div
-        className="md:w-2/5 mx-auto text-center"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, y: -50 },
-          visible: { opacity: 1, y: 0 },
-        }}
-      >
-        <div>
-          <p className="font-playfair font-semibold text-4xl">PROJECTS</p>
-          <div className="flex justify-center mt-5">
-            <DivisionBar width="w-2/3" />
-          </div>
+      <div className="md:w-2/5 mx-auto text-center">
+        <div className="overflow-hidden">
+          <motion.div
+            initial={{ y: "-100%" }}
+            whileInView={{ y: 0 }}
+            transition={{ ease: "easeInOut", duration: 0.75 }}
+          >
+            <p className="font-playfair font-semibold text-4xl">MY WORKS</p>
+            <div className="flex justify-center mt-5">
+              <DivisionBar width="w-2/3" />
+            </div>
+          </motion.div>
         </div>
-        <p className="mt-10 mb-10">
-          Here you are going to find some of my projects from my Ironhack
-          Bootcamp and also some of my animations.
-        </p>
-      </motion.div>
+        <div className="overflow-hidden">
+          <motion.p
+            initial={{ y: "100%" }}
+            whileInView={{ y: 0 }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
+            className="mt-10 mb-10"
+          >
+            Here you are going to find some of my works about Abstract ART,
+            Quilling Paper Design and many more .
+          </motion.p>
+        </div>
+      </div>
 
       {/* PROJECTS */}
-      <div className="flex justify-center">
+      <div className="flex justify-center overflow-hidden">
         <motion.div
           className="sm:grid sm:grid-cols-3"
           variants={container}
@@ -128,6 +131,12 @@ function Projects() {
             MOTION DESIGN
           </div>
           <Project title="Motion Reels" />
+          <div
+            className="flex justify-center text-center items-center p-10 bg-deep-blue
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+          >
+            MOTION DESIGN
+          </div>
         </motion.div>
       </div>
     </section>

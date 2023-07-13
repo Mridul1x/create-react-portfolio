@@ -36,7 +36,6 @@ function Hero() {
             </div>
           ) : (
             <div>
-              {" "}
               <Lottie
                 animationData={animation01}
                 loop={true}
@@ -48,16 +47,15 @@ function Hero() {
         </motion.div>
       </div>
       {/* MAIN SECTION */}
-      <div className="z-30 basis-3/6 mt-12 md:mt-32">
+      <div className=" z-30 basis-3/6 mt-12 md:mt-32">
         {/* HEADINGS */}
         <div className="overflow-hidden ">
           <motion.div
             initial={{ y: "100%" }}
             whileInView={{ y: 0 }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
-            className="text-center"
+            transition={{ duration: 1, ease: "easeInOut" }}
           >
-            <div className="flex font-raleway z-10 text-center md:text-start ">
+            <div className="flex justify-center text-center font-raleway z-10  md:text-start ">
               <div className="uppercase">
                 <p className="md:text-5xl ">
                   Hello, my name is&nbsp;

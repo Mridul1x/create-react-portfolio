@@ -14,7 +14,6 @@ import MotionReels from "./components/Projects/MotionReels";
 function App() {
   return (
     <Router>
-      {" "}
       <ScrollToTop>
         <div className="flex  flex-col items-center">
           <div className=" z-40 fixed w-full">

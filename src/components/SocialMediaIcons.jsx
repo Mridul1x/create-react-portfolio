@@ -1,7 +1,7 @@
 import React from "react";
-import behance_icon from "../assets/behance_icon.svg";
-import github_icon from "../assets/github_icon.svg";
+import threads from "../assets/threads.svg";
 import instagram from "../assets/instagram.svg";
+import facebook from "../assets/facebook.svg";
 
 function SocialMediaIcons() {
   return (
@@ -12,7 +12,7 @@ function SocialMediaIcons() {
         target="_blank"
         rel="noreferrer"
       >
-        <img src={instagram} style={{ width: "60px" }} alt="linkedin Icon" />
+        <img src={instagram} style={{ width: "60px" }} alt="Instagram Icon" />
       </a>
       <a
         className="hover:opacity-50 transition durantion-500"
@@ -20,15 +20,15 @@ function SocialMediaIcons() {
         target="_blank"
         rel="noreferrer"
       >
-        <img src={behance_icon} style={{ width: "60px" }} alt="behance icon" />
+        <img src={facebook} style={{ width: "60px" }} alt="Facebook icon" />
       </a>
       <a
         className="hover:opacity-50 transition durantion-500"
-        href="https://github.com/saracsilva"
+        href="https://www.threads.net/@anushriii_"
         target="_blank"
         rel="noreferrer"
       >
-        <img src={github_icon} style={{ width: "60px" }} alt="behance icon" />
+        <img src={threads} style={{ width: "60px" }} alt="Threads icon" />
       </a>
     </div>
   );
