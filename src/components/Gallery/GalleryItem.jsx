@@ -5,7 +5,7 @@ const GalleryItem = ({ src, alt, index }) => {
     <motion.div
       initial={{ scale: 0, borderRadius: "100px" }}
       whileInView={{ scale: 1, borderRadius: "0.75rem" }}
-      transition={{ ease: "easeInOut", duration: 1, delay: index / 10 }}
+      transition={{ ease: "easeInOut", duration: 1.35, delay: index / 10 }}
       className="w-full h-[25rem] overflow-hidden rounded-xl group hover:scale-90 duration-700"
     >
       <img
