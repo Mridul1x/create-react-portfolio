@@ -2,63 +2,58 @@ import React from "react";
 
 function About() {
   return (
-    <div className=" pt-[200px] flex flex-col md:flex-row align-center justify-center items-center gap-11">
-      <img
-        src="https://i.ibb.co/ccjVbjf/IMG-9893.jpg"
-        alt="Sara"
-        className="w-3/5 md:w-[400px]"
-      />
-      <div className="w-2/5 md:w-[600px]">
-        <h1 className="flex md:text-2xl align-center justify-center font-raleway z-10 text-center md:text-start p-11 ">
-          About Me
-        </h1>
-        <p className="flex flex-col md:text-l align-center justify-center font-raleway font-extralight z-10 text-center md:text-start pb-10  ">
+    <div className="md:pt-[150px] pt-28">
+      <h1 className="md:text-2xl text-center font-raleway mb-8 md:mb-12 ">
+        About Me
+      </h1>
+      <div className="flex flex-col md:flex-row items-center justify-center gap-11">
+        <img
+          src="https://i.ibb.co/Lnjh0p1/Black-White-Trendy-Aesthetic-Beauty-Blog-Your-Story.jpg"
+          alt="Anushri"
+          className="w-10/12 md:w-[380px]"
+        />
+        <p className="md:w-[550px] w-10/12 font-raleway text-justify">
           I'm from the green lands of Bangladesh, in a city called Rangpur by
           the Dharla River. It was there where I spent my childhood and teenage
-          dreams as a girl that always liked Artwrok. I always enjoyed learning
-          things by myself, and that's how I learned abstarct art and ended up
-          graduating in Design. At the time, I also liked to deal with a bit of
-          Quilling Art, but what I didn't know was that I could be a
-          professional in that (Art).
+          dreams as a girl who always liked Artwork. I always enjoyed learning
+          things by myself, and that's how I learned abstract art. At the time,
+          I also liked to deal with a bit of Quilling Art, but what I didn't
+          know was that I could be a professional in that.
           <br /> <br />
-          So during my journey as a professional, I was also discovering myself.
-          I had some bad experiences that again made me not look at IT as a
-          profession.
+          Growing up in the enchanting city of Rangpur, I had the privilege of
+          witnessing the beauty of nature, which effortlessly influenced my
+          creativity. The vibrant surroundings inspired me to delve into various
+          forms of art, and I found immense joy in self-learning and
+          experimenting.
           <br /> <br />
-          I worked for five years animating logos for Real States with Adobe
-          Flash in a company, then for a few years became a freelancer where I
-          started learning After Effects by myself.
+          My artistic journey took flight with abstract art, where I explored
+          the depths of emotions through strokes of color, embracing the
+          unpredictable and the unrestrained.
           <br /> <br />
-          So in 2017, my partner and I decided that it was time for some
-          adventures, packed our things, and came to Lisbon to study. And it was
-          there that I became a Lead motion Designer at an
-          advertisement agency.   
+          I have successfully completed my Higher Secondary Certificate (HSC)
+          examination under the Dhaka Board.
           <br /> <br />
-          After 3 years and with a PhD position opportunity for my partner, we
-          decided to move to the Netherlands.  
+          From an early age, I discovered the joy of learning and exploring
+          things on my own.
           <br /> <br />
-          And it was here that I had to reevaluate my professional life and came
-          across IT again. But at this time, with a different perspective. I
-          started taking courses, and I loved it. Then, I thought to myself, why
-          didn't I start with this before? To focus and go really deep into it,
-          I started in October 2022 a Bootcamp at Ironhack, and now I'm a
-          FrontEnd Developer. 
-          <br /> <br />{" "}
+          As I move forward, I am filled with gratitude for the opportunities
+          that have led me to this point. With boundless passion and a strong
+          foundation in art and design, I eagerly embrace the future, ready to
+          make my mark in the artistic realm and share my vision with the world.
         </p>
-
-        <div className="md:text-l align-center justify-center font-raleway font-extralight z-10 text-center md:text-start pb-10">
-          <h1>
-            <strong>Current</strong>
-          </h1>
-          <p>
-            -In <s>Itajaí, Lisbon, Barreiro, Hengelo,</s> Enschede{" "}
-          </p>
-          <p>-Looking for a FrontEnd Developer Opportunity</p>
-          <br /> <br />
-        </div>
       </div>
     </div>
   );
 }
 
 export default About;
+// {/* <div className="md:text-l align-center justify-center font-raleway font-extralight z-10 text-center md:text-start pb-10">
+// <h1>
+//   <strong>Current</strong>
+// </h1>
+// <p>
+//   -In <s>Itajaí, Lisbon, Barreiro, Hengelo,</s> Enschede{" "}
+// </p>
+// <p>-Looking for a FrontEnd Developer Opportunity</p>
+// <br /> <br />
+// </div> */}

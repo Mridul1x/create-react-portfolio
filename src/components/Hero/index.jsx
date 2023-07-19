@@ -12,7 +12,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="w-5/6 md:flex flex-row-reverse md:justify-center md:items-center md:h-5/6 gap-16 mt-10 md:mb-10 mb-6"
+      className="w-5/6 md:flex flex-row-reverse md:justify-center md:items-center md:h-5/6 gap-16 mt-10 md:mb-10 mb-6 "
     >
       {/* Image Section */}
       <div className="overflow-hidden">
@@ -51,9 +51,9 @@ function Hero() {
         {/* HEADINGS */}
         <div className="overflow-hidden ">
           <motion.div
-            initial={{ y: "100%" }}
-            whileInView={{ y: 0 }}
-            transition={{ duration: 1, ease: "easeInOut" }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeInOut", delay: 0.3 }}
           >
             <div className="flex justify-center text-center font-raleway z-10  md:text-start ">
               <div className="uppercase">
@@ -79,6 +79,8 @@ function Hero() {
                         ],
                         autoStart: true,
                         loop: true,
+                        deleteSpeed: 28,
+                        delay: 93,
                       }}
                     />
                   </span>
@@ -89,9 +91,9 @@ function Hero() {
         </div>
         <div className="overflow-hidden">
           <motion.div
-            initial={{ y: "100%" }}
-            whileInView={{ y: 0 }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeInOut", delay: 0.5 }}
           >
             <SocialMediaIcons />
           </motion.div>

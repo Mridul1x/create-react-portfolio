@@ -24,7 +24,11 @@ const Project = ({ title, subtitle }) => {
 
   return (
     <LinkR to={`/${projectTitle}`}>
-      <motion.div variants={projectVariant} className="relative">
+      <motion.div
+        variants={projectVariant}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className="relative"
+      >
         <div className={overlayStyles}>
           <p className="text-2xl font-playfair">{title}</p>
           <p className="mt-7">{subtitle}</p>
@@ -74,8 +78,8 @@ function Projects() {
           <motion.p
             initial={{ y: "100%" }}
             whileInView={{ y: 0 }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
-            className="mt-10 mb-10"
+            transition={{ duration: 0.75, ease: "easeInOut", delay: 0.1 }}
+            className="mt-10 mb-10  "
           >
             Here you are going to find some of my works about Abstract ART,
             Quilling Paper Design and many more .
