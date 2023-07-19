@@ -78,7 +78,7 @@ function Projects() {
           <motion.p
             initial={{ y: "100%" }}
             whileInView={{ y: 0 }}
-            transition={{ duration: 0.75, ease: "easeInOut", delay: 0.1 }}
+            transition={{ duration: 0.75, ease: "easeInOut" }}
             className="mt-10 mb-10  "
           >
             Here you are going to find some of my works about Abstract ART,
