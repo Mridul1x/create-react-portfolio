@@ -16,7 +16,7 @@ function SocialMediaIcons() {
       </a>
       <a
         className="hover:opacity-50 transition durantion-500"
-        href="https://www.behance.net/saracarolic7cd"
+        href="https://www.facebook.com/anushri.ghosh.583"
         target="_blank"
         rel="noreferrer"
       >
