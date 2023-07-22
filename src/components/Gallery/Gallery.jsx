@@ -5,7 +5,7 @@ import DivisionBar from "../DivisionBar";
 
 const Gallery = () => {
   return (
-    <section id="gallery" className="wrapper md:mt-10 pb-48">
+    <section id="gallery" className="wrapper md:mt-10 mb-28">
       <div className="overflow-hidden md:w-2/5 mx-auto">
         <motion.div
           initial={{ y: "-100%" }}
