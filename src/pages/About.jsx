@@ -17,8 +17,8 @@ function About() {
         <div className="overflow-hidden">
           <motion.div
             initial={{ y: "-100%" }}
-            whileInView={{ y: 0 }}
-            transition={{ duration: 1, ease: "easeInOut" }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.5, ease: "easeInOut", delay: 0.3 }}
             className="mx-auto"
           >
             <img
@@ -30,9 +30,9 @@ function About() {
         </div>
         <div className="overflow-hidden">
           <motion.p
-            initial={{ y: "-100%" }}
-            whileInView={{ y: 0 }}
-            transition={{ duration: 1, ease: "easeInOut" }}
+            initial={{ y: "100%" }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.5, ease: "easeInOut", delay: 1 }}
             className="md:w-[550px] mx-auto w-10/12 font-raleway text-center md:text-justify"
           >
             I'm from the green lands of Bangladesh, in a city called Rangpur by
@@ -76,7 +76,7 @@ export default About;
 //   <strong>Current</strong>
 // </h1>
 // <p>
-//   -In <s>Itajaí, Lisbon, Barreiro, Hengelo,</s> Enschede{" "}
+//   -In <s>Itajaí, Lisbon, Barreiro, Hengelo,</s> Enschede
 // </p>
 // <p>-Looking for a FrontEnd Developer Opportunity</p>
 // <br /> <br />

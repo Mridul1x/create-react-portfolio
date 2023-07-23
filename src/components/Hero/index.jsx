@@ -51,9 +51,9 @@ function Hero() {
         {/* HEADINGS */}
         <div className="overflow-hidden ">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: "easeInOut", delay: 0.3 }}
+            initial={{ y: "100%" }}
+            whileInView={{ y: 0 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
           >
             <div className="flex justify-center text-center font-raleway z-10  md:text-start ">
               <div className="uppercase">
