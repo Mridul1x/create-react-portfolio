@@ -127,7 +127,6 @@ function Navbar() {
                 variants={liVariants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                transition={transition}
                 className="py-[0.2em] hover:cursor-pointer hover:text-yellow transition duration-500 hover:font-semibold "
               >
                 <LinkR
@@ -148,7 +147,6 @@ function Navbar() {
                 variants={liVariants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                transition={transition}
                 className="py-[0.2em] hover:text-yellow  hover:font-semibold transition duration-500"
               >
                 <LinkR
@@ -161,7 +159,6 @@ function Navbar() {
               <motion.li
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                transition={transition}
                 variants={liVariants}
                 className="py-[0.2em] hover:text-yellow hover:font-semibold transition duration-500"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
