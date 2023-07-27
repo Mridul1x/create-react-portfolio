@@ -11,18 +11,10 @@ function Navbar() {
     open: {
       opacity: 1,
       x: 0,
-      transition: {
-        duration: 0.3,
-        // Use a different easing function, if desired
-      },
     },
     closed: {
       opacity: 0,
       x: "-100%",
-      transition: {
-        duration: 0.3,
-        // Use a different easing function, if desired
-      },
     },
   };
   const liVariants = {
@@ -35,10 +27,7 @@ function Navbar() {
       opacity: 0,
     },
   };
-  const transition = {
-    duration: 0.3, // Adjust the duration (in seconds) to make the animation slower or faster
-    ease: "easeInOut", // Use a different easing function, if desired
-  };
+
   return (
     <motion.nav className=" flex z-40 items-center justify-between  bg-purple py-2 ">
       <div className=" ml-3 md:pl-[10em] md:w-1/4">
@@ -115,7 +104,6 @@ function Navbar() {
                 variants={liVariants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                transition={transition}
                 className="py-[0.2em] hover:text-yellow hover:font-semibold transition duration-500"
               >
                 <LinkR
