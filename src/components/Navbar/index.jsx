@@ -2,34 +2,12 @@ import React, { useState } from "react";
 import { Link as LinkR } from "react-router-dom";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import "./Button.css";
-import { motion } from "framer-motion";
 
 function Navbar() {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveSmallScreens = useMediaQuery("(min-width:768px )");
-  const variants = {
-    open: {
-      opacity: 1,
-      x: 0,
-    },
-    closed: {
-      opacity: 0,
-      x: "-100%",
-    },
-  };
-  const liVariants = {
-    open: {
-      y: 0,
-      opacity: 1,
-    },
-    closed: {
-      y: 50,
-      opacity: 0,
-    },
-  };
-
   return (
-    <motion.nav className=" flex z-40 items-center justify-between  bg-purple py-2 ">
+    <nav className=" flex z-40 items-center justify-between  bg-purple py-2 ">
       <div className=" ml-3 md:pl-[10em] md:w-1/4">
         <LinkR to="/">
           <img src={"../assets/logo1.png"} alt="logo" width={120} />
@@ -85,12 +63,7 @@ function Navbar() {
       )}
       {/* Mobile Menu */}
       {!isAboveSmallScreens && isMenuToggled && (
-        <motion.div
-          initial="closed"
-          animate={isMenuToggled ? "open" : "closed"}
-          variants={variants}
-          className="fixed items-center right-0 bottom-0 h-full bg-blue w-[300px]"
-        >
+        <div className="fixed items-center right-0 bottom-0 h-full bg-blue w-[300px]">
           {/* CLOSE ICON */}
           <div className="flex justify-start items-center  p-12">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -99,13 +72,8 @@ function Navbar() {
           </div>
           {/* Menu Itens */}
           <div className="flex items-center  flex-col gap-10 ml-[33%] text-2xl text-white">
-            <motion.ul className="py-[2em]">
-              <motion.li
-                variants={liVariants}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                className="py-[0.2em] hover:text-yellow hover:font-semibold transition duration-500"
-              >
+            <ul className="py-[2em]">
+              <li className="py-[0.2em] hover:text-yellow hover:font-semibold transition duration-500">
                 <LinkR
                   to="/#works"
                   /* smooth={true} */
@@ -122,13 +90,8 @@ function Navbar() {
                 >
                   Works
                 </LinkR>
-              </motion.li>
-              <motion.li
-                variants={liVariants}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                className="py-[0.2em] hover:cursor-pointer hover:text-yellow transition duration-500 hover:font-semibold "
-              >
+              </li>
+              <li className="py-[0.2em] hover:cursor-pointer hover:text-yellow transition duration-500 hover:font-semibold ">
                 <LinkR
                   to="/#gallery"
                   offset={70}
@@ -142,34 +105,26 @@ function Navbar() {
                 >
                   Gallery
                 </LinkR>
-              </motion.li>
-              <motion.li
-                variants={liVariants}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                className="py-[0.2em] hover:text-yellow  hover:font-semibold transition duration-500"
-              >
+              </li>
+              <li className="py-[0.2em] hover:text-yellow  hover:font-semibold transition duration-500">
                 <LinkR
                   to="/aboutme"
                   onClick={() => setIsMenuToggled(!isMenuToggled)}
                 >
                   About Me
                 </LinkR>
-              </motion.li>
-              <motion.li
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                variants={liVariants}
+              </li>
+              <li
                 className="py-[0.2em] hover:text-yellow hover:font-semibold transition duration-500"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
                 <a href="mailto:anushrighose@gmail.com">Let's Talk!</a>
-              </motion.li>
-            </motion.ul>
+              </li>
+            </ul>
           </div>
-        </motion.div>
+        </div>
       )}
-    </motion.nav>
+    </nav>
   );
 }
 
