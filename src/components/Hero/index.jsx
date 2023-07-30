@@ -47,7 +47,7 @@ function Hero() {
         </motion.div>
       </div>
       {/* MAIN SECTION */}
-      <div className=" z-30 basis-3/6 mt-12 md:mt-32">
+      <div className="w-full  basis-3/6 mt-12 md:mt-32">
         {/* HEADINGS */}
         <div className="overflow-hidden ">
           <motion.div
@@ -55,7 +55,7 @@ function Hero() {
             whileInView={{ y: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
           >
-            <div className="flex justify-center text-center font-raleway z-10  md:text-start ">
+            <div className="flex justify-center text-center font-raleway md:text-start ">
               <div className="uppercase">
                 <p className="md:text-5xl ">
                   Hello, my name is&nbsp;
