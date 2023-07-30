@@ -19,6 +19,24 @@ const Video = () => {
           </div>
         </motion.div>
       </div>
+      <div className="text-center">
+        <iframe
+          width="320"
+          height="400"
+          src="https://www.youtube.com/embed/xTPdX5z5L44"
+          title="Surprise Video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div>
+          <a href="https://www.youtube.com/embed/xTPdX5z5L44" download>
+            <button className="mt-3 bg-deep-blue text-white font-bold py-2 px-4 rounded">
+              Download Video
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
